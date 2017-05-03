@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\Controller.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBase.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspective.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspectiveBilinear.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGLM\src\ofxGLM.cpp">
+      <Filter>addons\ofxGLM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWarp">
+      <UniqueIdentifier>{0CB908C6-4EC5-EF34-1A36-41BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWarp\src">
+      <UniqueIdentifier>{C74C6CD4-6B46-AEAD-311A-1E9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWarp\src\ofxWarp">
+      <UniqueIdentifier>{1D9942E4-511E-BE18-EBE3-FFAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGLM">
+      <UniqueIdentifier>{7ce6a5ac-0987-4547-95f9-4e1226bf819d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\Controller.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBase.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBilinear.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspective.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspectiveBilinear.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp.h">
+      <Filter>addons\ofxWarp\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGLM\src\ofxGLM.h">
+      <Filter>addons\ofxGLM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
